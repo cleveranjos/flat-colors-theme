@@ -1,0 +1,197 @@
+{
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "14px",
+    "@SubtitleSize": "13px",
+    "@TextSize": "11px",
+    "@FooterSize": "9px",
+    "@TitleColor": "#34495e",
+    "@SubtitleColor": "#34495e",
+    "@TextColor": "#34495e",
+    "@FooterColor": "#34495e",
+    "@BackgroundColor": "#fdfdfd",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor",
+  "dataColors": {
+    "primaryColor": "#2980b9",
+    "othersColor": "#f39c12",
+    "errorColor": "#CC4000",
+    "nullColor": "#e74c3c"
+  },
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "palettes": {
+    "data": [
+      {
+        "name": "Flat Colors v1",
+        "translation": "Flat Colors v1",
+        "propertyValue": "pyvjy",
+        "type": "row",
+        "scale": [
+          "#2c3e50", 
+          "#2980b9", 
+          "#8e44ad", 
+          "#27ae60", 
+          "#e74c3c", 
+          "#e67e22", 
+		  "#7f8c8d", 
+		  "#3498db", 
+		  "#9b59b6", 
+		  "#1abc9c", 
+		  "#f39c12",
+		  "#bdc3c7"
+        ]
+      },
+      {
+        "name": "American Pallete",
+        "translation": "American Pallete",
+        "propertyValue": "ytcgd5f",
+        "type": "row",
+        "scale": [
+          "#2d3436",
+          "#0984e3",
+          "#d63031",
+          "#636e72",
+          "#e17055"
+        ]
+      }
+    ],
+    "ui": []
+  },
+  "scales": [
+	{
+      "name": "Belize Hole",
+      "translation": "Belize Hole",
+      "type": "gradient",
+      "propertyValue": "o5i5x",
+      "scale": [
+        "#2980b9",
+        "#3498db",
+		"#00d4ff"
+      ]
+    },
+    {
+      "name": "Nephritis",
+      "translation": "Nephritis",
+      "type": "gradient",
+      "propertyValue": "o5i5w",
+      "scale": [
+        "#27ae60",
+        "#72fdac"
+      ]
+    },
+    {
+      "name": "Wisteria",
+      "translation": "Wisteria",
+      "type": "gradient",
+      "propertyValue": "o5i5y",
+      "scale": [
+        "#8e44ad",
+        "#b16ecc",
+		"#d187f0"
+      ]
+    },
+    {
+      "name": "Midnight Blue",
+      "translation": "Midnight Blue",
+      "type": "gradient",
+      "propertyValue": "9lg9id",
+      "scale": [
+        "#2c3e50",
+        "#34495e",
+        "#7f8c8d"
+      ]
+    }
+  ]
+}
